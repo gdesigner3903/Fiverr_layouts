@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+ header{ background-color: black;
+ 	text-align: center;
+ 	padding: 8px 0
+
+
+
+ }
+ header h1{
+ 	color: white;
+ 	font-size:22px;
+ 	font-family: raleway;
+ 	font-weight: 700
+
+
+ }
+ header h1 a{
+ 	color: seagreen;
+ 	font-size:12px;
+ 	text-decoration: none;
+
+ }
+
+ nav{
+ 	border-bottom: 1px solid seagreen;
+
+ }
+
+ nav ul{ padding: 0;
+text-align: center;
+ }
+
+ nav ul li { list-style-type: none;
+ 	display: inline-block;
+
+ }
+ nav ul li a{
+text-decoration: none;
+color: #333;
+font-size: 16px;
+display: block;
+padding: 14px;
+font-family: raleway;
+font-weight: 500
+ }
+  nav ul li a:hover{
+  	background-color: seagreen;
+  	color:white
+ 	
+ }
+ 
+.heading{
+	text-align: center;
+	padding: 50px 0
+
+}
+.heading h1{
+font-size:22px;
+ 	font-family: raleway;
+ 	font-weight: 700;
+ 	color:seagreen;
+}
+.heading p{
+	font-size: 13px;
+	font-family: raleway;
+	font-weight: 300
+
+}
+
+
+.container{ width: 900px;
+	margin: auto;
+
+}
+aside{
+	width: 20%;
+	float: left;
+	padding: 18px
+
+
+}
+aside ul{
+
+}
+aside li{
+
+}
+aside ul li{ padding: 0;
+	list-style: none;
+
+}
+aside ul li a{ color: #333;
+	text-decoration: none;
+	font-family: raleway;
+font-weight: 600;
+	font-size: 14px;
+display: block;
+padding: 7px
+
+}
+aside ul li a:hover { background-color: seagreen;
+	color: white
+
+}
+
+.content{ width: 80%;
+	float: left;
+padding: 18px
+}
+.content .content-box{
+	width: 33.33%;
+	float: left;
+	padding: 10px 5px
+
+}
+.content .content-box img{ max-width: 100%;
+	max-height: 100%;
+	
+}
+.content .content-box img:hover{
+	opacity: 0.5
+}
+.content .content-box h3{
+	color:seagreen;
+	font-family: raleway;
+font-weight: 700;
+	font-size: 14px
+
+}
+
+.two{
+width: 100%;
+background-color: #282828 ;
+overflow: hidden;
+padding: 45px 10px
+}
+.two .one{
+width: 33.33%;
+float: left;
+text-align: center;
+padding: 5px 10px
+}
+.two .one h1 {
+	font-size:24px;
+ 	font-family: raleway;
+ 	font-weight: 700;
+ 	color:seagreen;
+padding : 5px 10px;
+}
+.one p {
+	font-family: raleway;
+	font-size: 10px;
+	font-weight: 300;
+	color: white;
+	padding: 5px 0;
+	font-height: 20px;
+	}
